@@ -8,3 +8,28 @@
 
   margin: 50px auto;
 }
+
+.image {
+  margin-bottom: 15px;
+}
+
+.text {
+  text-align: center;
+  margin: 10px auto 60px;
+  padding: 0;
+  line-height: 1.25;
+}
+
+.buttonsContainer {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.button {
+  width: 100%;
+  list-style-type: none;
+}

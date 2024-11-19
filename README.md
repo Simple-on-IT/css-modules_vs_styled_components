@@ -1,12 +1,18 @@
-# Практика: createPortal
+# Практика: css modules vs styled components
 
-## Задачи:
+## Задача:
 
-Переписать компонент Modal так, чтобы в нём использовалась функция createPortal 
+В файле MainPage.tsx используются 2 кнопки. Стилизация одной построена на css modules, стилизация другой на styled components.
+Вам нужно дописать отсутсвующие фрагменты кода в каждой из них. Для этого:
+  - css modules:
+    1. в файле Button.module.scss создайте 3 класса ".size_m", ".size_l" и ".size_xl" c прописанным font-size. Значения берите из global.scss
+    2. в файле ButtonCss.tsx прикрепите к button дополнительный класс с размером в зависимости от полученного size. Константа с названиями классов - ButtonFontSize.
+  - styled components:
+    1. в файле Button.styles.ts добавьте поле font-size которое будет зависеть от size. Значения бериет из theme.fontSize
 
 ## Материалы:
-Документация - https://react.dev/reference/react-dom/createPortal  
-Видео - https://youtube.com/shorts/3Pvr6smC-V8
+Документация - 
+Видео - 
 
 ## Запуск проекта:
 * `npm i` - установка библиотек

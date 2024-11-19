@@ -1,0 +1,23 @@
+.button {
+  padding: 15px 30px;
+  width: 100%;
+  background-color: rgb(132, 94, 219);
+  border-radius: 55px;
+  border: 1px solid white;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+// тут не хватает классов ".size_m", ".size_l" и ".size_xl"
+
+.text {
+  margin: 0;
+  padding: 0;
+}
