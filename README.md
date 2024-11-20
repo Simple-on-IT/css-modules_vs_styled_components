@@ -11,8 +11,11 @@
     1. в файле Button.styles.ts добавьте поле font-size которое будет зависеть от size. Значения бериет из theme.fontSize
 
 ## Материалы:
-Документация - 
-Видео - 
+Информация:
+  1. Про css modules можно почитать здесь - https://habr.com/ru/articles/335244/
+  2. Styled Components - https://styled-components.com/  
+
+Видео - https://youtube.com/shorts/iDXTieu34-s
 
 ## Запуск проекта:
 * `npm i` - установка библиотек
